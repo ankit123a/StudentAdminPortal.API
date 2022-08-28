@@ -29,7 +29,7 @@ namespace StudentAdminPortal.API.Controllers
             })
             .ToArray();
         }
-        public string Get()
+        public string GetName()
         {
             return "Hi there";
         }
