@@ -29,5 +29,9 @@ namespace StudentAdminPortal.API.Controllers
             })
             .ToArray();
         }
+        public string Get()
+        {
+            return "Hi there";
+        }
     }
 }
