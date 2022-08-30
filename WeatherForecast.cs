@@ -1,4 +1,4 @@
-namespace StudentAdminPortal.API
+namespace Test
 {
     public class WeatherForecast
     {

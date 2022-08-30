@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace StudentAdminPortal.API.Controllers
+namespace Test.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -28,11 +28,6 @@ namespace StudentAdminPortal.API.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
-        }
-        [HttpGet]
-        public string GetName()
-        {
-            return "Hi there";
         }
     }
 }

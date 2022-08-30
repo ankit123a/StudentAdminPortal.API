@@ -8,5 +8,6 @@ public class AutoMapperProfile : Profile
 	public AutoMapperProfile()
 	{
 		CreateMap<DataModel.Student, Student>().ReverseMap();
+		
 	}
 }

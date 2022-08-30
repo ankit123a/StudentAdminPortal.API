@@ -20,7 +20,7 @@ namespace StudentAdminPortal.API.Controllers
         }
 
         
-        [HttpGet]
+        [HttpGet("GetAllStudentsAsync")]
         
         public async Task<IActionResult> GetAllStudentsAsync()
         {
